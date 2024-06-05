@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RIS_Report</class>
+ <widget class="QMainWindow" name="RIS_Report">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1527</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="Report">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>741</width>
+      <height>501</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>540</y>
+      <width>131</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SAVE REPORT</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="optionOM2">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>430</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optiondLAD">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>340</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionRPL_2">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>420</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionOM1">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>380</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionD2">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>330</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionOM2_2">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>420</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionRI">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>300</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionD1_2">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>240</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="fc_plaque">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>540</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fibrocalcic plaque</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="optionRPL">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>430</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionRI_2">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>290</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionpRCA_2">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>100</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optiondCx_2">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>360</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionLCA">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>190</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionOM1_2">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>370</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionD2_2">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>320</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optiondRCA">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>260</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionpRCA">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>110</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="stent">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>540</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stent</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fl_plaque">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>540</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fibrolipidic plaque</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="optionRPD_2">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>310</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionLCA_2">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>180</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionmRCA">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>160</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optiondCx">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>370</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionLPL">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>460</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionpCx">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>270</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionmLAD_2">
+    <property name="geometry">
+     <rect>
+      <x>1350</x>
+      <y>190</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionmLAD">
+    <property name="geometry">
+     <rect>
+      <x>1350</x>
+      <y>200</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optiondLAD_2">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>330</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionpLAD">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>180</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionmRCA_2">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>150</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionpLAD_2">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>170</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionLPD_2">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>470</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionLPD">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>480</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="vu_plaque">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>540</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vulnerable plaque</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="optionLPL_2">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>450</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>20</y>
+      <width>691</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>coronary_segments2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="optionRPD">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>320</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionpCx_2">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>260</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optiondRCA_2">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>250</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrocalcic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fibrolipidic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vulnerable</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stent</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="optionD1">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>250</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;25%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;50%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;70%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&lt;99%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100%</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NEv</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>optiondLAD_2</zorder>
+   <zorder>optionD2_2</zorder>
+   <zorder>optionOM1_2</zorder>
+   <zorder>optionOM2_2</zorder>
+   <zorder>optionRI_2</zorder>
+   <zorder>optionpLAD_2</zorder>
+   <zorder>optionLCA_2</zorder>
+   <zorder>optionpCx_2</zorder>
+   <zorder>optionLPL_2</zorder>
+   <zorder>optionpRCA_2</zorder>
+   <zorder>optiondRCA_2</zorder>
+   <zorder>optionmRCA_2</zorder>
+   <zorder>Report</zorder>
+   <zorder>save</zorder>
+   <zorder>optionOM2</zorder>
+   <zorder>optiondLAD</zorder>
+   <zorder>optionRPL_2</zorder>
+   <zorder>optionOM1</zorder>
+   <zorder>optionD2</zorder>
+   <zorder>optionRI</zorder>
+   <zorder>optionD1_2</zorder>
+   <zorder>fc_plaque</zorder>
+   <zorder>optionRPL</zorder>
+   <zorder>optiondCx_2</zorder>
+   <zorder>optionLCA</zorder>
+   <zorder>optiondRCA</zorder>
+   <zorder>optionpRCA</zorder>
+   <zorder>stent</zorder>
+   <zorder>fl_plaque</zorder>
+   <zorder>optionRPD_2</zorder>
+   <zorder>optionmRCA</zorder>
+   <zorder>optiondCx</zorder>
+   <zorder>optionLPL</zorder>
+   <zorder>optionpCx</zorder>
+   <zorder>optionmLAD_2</zorder>
+   <zorder>optionmLAD</zorder>
+   <zorder>optionpLAD</zorder>
+   <zorder>optionLPD_2</zorder>
+   <zorder>optionLPD</zorder>
+   <zorder>vu_plaque</zorder>
+   <zorder>optionRPD</zorder>
+   <zorder>optionD1</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
