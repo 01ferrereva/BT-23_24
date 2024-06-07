@@ -269,3 +269,235 @@ class data_patients():
         ImageInfo_Generator().CADRADS_calculator_individual(self.patients,'1776694')
         
         self.order = PreTestScore().order_prioritization(self.patients)
+
+class data_patients2():
+    def __init__(self):
+        self.patients['1974442']={}
+        self.patients['1974442']['EHR']={}
+        self.patients['1974442']['EHR']['Consult motive']='Chest pain/atypical symptoms in patient without known CAD'
+        self.patients['1974442']['EHR']['Chest pain']='Atypical'
+        self.patients['1974442']['EHR']['Prevalence']='Low'
+        self.patients['1974442']['EHR']['Sex']='Male'
+        self.patients['1974442']['EHR']['Age']=26
+        self.patients['1974442']['EHR']['Name']='Manel Garcia Font'
+        self.patients['1974442']['EHR']['Smoking']='No'
+        self.patients['1974442']['EHR']['Diabetes']='No'
+        self.patients['1974442']['EHR']['Hypertension']='No'
+        self.patients['1974442']['EHR']['Dyslipidaemia']='No'
+        self.patients['1974442']['EHR']['Previous procedures']=[False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False]
+        self.patients['1974442']['EHR']['Urgent study']='No'
+        
+        self.patients['1974442']['Admin']={}
+        self.patients['1974442']['Admin']['Physician']='David Viladés'
+        self.patients['1974442']['Admin']['Center']='Hospital de la Santa Creu i Sant Pau'
+        self.patients['1974442']['Admin']['Service']='Cardiology'
+        self.patients['1974442']['Admin']['Study date']=datetime(2023,11,08).date()
+        self.patients['1974442']['Quality']='Good'
+        self.patients['1974442']['Limitations']=[False,False,False,False,False,False,False,False]
+        self.patients['1974442']['first_filter']=True
+        self.patients['1974442']['second_filter']=True
+        self.patients['1974442']['AI suitability']=True
+        self.patients['1974442']['Dominance']='Right dominance'
+        self.patients['1974442']['CACs']=0
+        self.patients['1974442']['Stenosis']={1:['0','LCA'],
+                                        2:['0','p-LAD'],
+                                        3:['0','m-LAD'],
+                                        4:['0','d-LAD'],
+                                        5:['0','D1'],
+                                        6:['0','D2'],
+                                        7:['0','p-Cx'],
+                                        8:['0','d-Cx'],
+                                        9:['0','OM1'],
+                                        10:['0','OM2'],
+                                        11:['0','RI'],
+                                        12:['0','p-RCA'],
+                                        13:['0','m-RCA'],
+                                        14:['0','d-RCA'],
+                                        15:['0','RPL'],
+                                        16:['0','RPD']
+                                        }
+        ImageInfo_Generator().CADRADS_calculator_individual(self.patients,'1974442')
+
+        self.patients['1112905']={}
+        self.patients['1112905']['EHR']={}
+        self.patients['1112905']['EHR']['Consult motive']='Chest pain/atypical symptoms in patient without known CAD'
+        self.patients['1112905']['EHR']['Chest pain']='Atypical'
+        self.patients['1112905']['EHR']['Prevalence']='Low'
+        self.patients['1112905']['EHR']['Sex']='Male'
+        self.patients['1112905']['EHR']['Age']=26
+        self.patients['1112905']['EHR']['Name']='Manel Garcia Font'
+        self.patients['1112905']['EHR']['Smoking']='No'
+        self.patients['1112905']['EHR']['Diabetes']='No'
+        self.patients['1112905']['EHR']['Hypertension']='No'
+        self.patients['1112905']['EHR']['Dyslipidaemia']='No'
+        self.patients['1112905']['EHR']['Previous procedures']=[False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False]
+        self.patients['1112905']['EHR']['Urgent study']='No'
+        
+        self.patients['1112905']['Admin']={}
+        self.patients['1112905']['Admin']['Physician']='David Viladés'
+        self.patients['1112905']['Admin']['Center']='Hospital de la Santa Creu i Sant Pau'
+        self.patients['1112905']['Admin']['Service']='Cardiology'
+        self.patients['1112905']['Admin']['Study date']=datetime(2023,11,08).date()
+        self.patients['1112905']['Quality']='Good'
+        self.patients['1112905']['Limitations']=[False,False,False,False,False,False,False,False]
+        self.patients['1112905']['first_filter']=True
+        self.patients['1112905']['second_filter']=True
+        self.patients['1112905']['AI suitability']=True
+        self.patients['1112905']['Dominance']='Right dominance'
+        self.patients['1112905']['CACs']=0
+        self.patients['1112905']['Stenosis']={1:['0','LCA'],
+                                        2:['0','p-LAD'],
+                                        3:['0','m-LAD'],
+                                        4:['0','d-LAD'],
+                                        5:['0','D1'],
+                                        6:['0','D2'],
+                                        7:['0','p-Cx'],
+                                        8:['0','d-Cx'],
+                                        9:['0','OM1'],
+                                        10:['0','OM2'],
+                                        11:['0','RI'],
+                                        12:['0','p-RCA'],
+                                        13:['0','m-RCA'],
+                                        14:['0','d-RCA'],
+                                        15:['0','RPL'],
+                                        16:['0','RPD']
+                                        }
+        ImageInfo_Generator().CADRADS_calculator_individual(self.patients,'1112905')
+
+        self.patients['988035']={}
+        self.patients['988035']['EHR']={}
+        self.patients['988035']['EHR']['Consult motive']='Chest pain/atypical symptoms in patient without known CAD'
+        self.patients['988035']['EHR']['Chest pain']='Atypical'
+        self.patients['988035']['EHR']['Prevalence']='Low'
+        self.patients['988035']['EHR']['Sex']='Male'
+        self.patients['988035']['EHR']['Age']=26
+        self.patients['988035']['EHR']['Name']='Manel Garcia Font'
+        self.patients['988035']['EHR']['Smoking']='No'
+        self.patients['988035']['EHR']['Diabetes']='No'
+        self.patients['988035']['EHR']['Hypertension']='No'
+        self.patients['988035']['EHR']['Dyslipidaemia']='No'
+        self.patients['988035']['EHR']['Previous procedures']=[False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False]
+        self.patients['988035']['EHR']['Urgent study']='No'
+        
+        self.patients['988035']['Admin']={}
+        self.patients['988035']['Admin']['Physician']='David Viladés'
+        self.patients['988035']['Admin']['Center']='Hospital de la Santa Creu i Sant Pau'
+        self.patients['988035']['Admin']['Service']='Cardiology'
+        self.patients['988035']['Admin']['Study date']=datetime(2023,11,08).date()
+        self.patients['988035']['Quality']='Good'
+        self.patients['988035']['Limitations']=[False,False,False,False,False,False,False,False]
+        self.patients['988035']['first_filter']=True
+        self.patients['988035']['second_filter']=True
+        self.patients['988035']['AI suitability']=True
+        self.patients['988035']['Dominance']='Right dominance'
+        self.patients['988035']['CACs']=0
+        self.patients['988035']['Stenosis']={1:['0','LCA'],
+                                        2:['0','p-LAD'],
+                                        3:['0','m-LAD'],
+                                        4:['0','d-LAD'],
+                                        5:['0','D1'],
+                                        6:['0','D2'],
+                                        7:['0','p-Cx'],
+                                        8:['0','d-Cx'],
+                                        9:['0','OM1'],
+                                        10:['0','OM2'],
+                                        11:['0','RI'],
+                                        12:['0','p-RCA'],
+                                        13:['0','m-RCA'],
+                                        14:['0','d-RCA'],
+                                        15:['0','RPL'],
+                                        16:['0','RPD']
+                                        }
+        ImageInfo_Generator().CADRADS_calculator_individual(self.patients,'988035')
+
+        self.patients['1011516']={}
+        self.patients['1011516']['EHR']={}
+        self.patients['1011516']['EHR']['Consult motive']='Chest pain/atypical symptoms in patient without known CAD'
+        self.patients['1011516']['EHR']['Chest pain']='Atypical'
+        self.patients['1011516']['EHR']['Prevalence']='Low'
+        self.patients['1011516']['EHR']['Sex']='Male'
+        self.patients['1011516']['EHR']['Age']=26
+        self.patients['1011516']['EHR']['Name']='Manel Garcia Font'
+        self.patients['1011516']['EHR']['Smoking']='No'
+        self.patients['1011516']['EHR']['Diabetes']='No'
+        self.patients['1011516']['EHR']['Hypertension']='No'
+        self.patients['1011516']['EHR']['Dyslipidaemia']='No'
+        self.patients['1011516']['EHR']['Previous procedures']=[False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False]
+        self.patients['1011516']['EHR']['Urgent study']='No'
+        
+        self.patients['1011516']['Admin']={}
+        self.patients['1011516']['Admin']['Physician']='David Viladés'
+        self.patients['1011516']['Admin']['Center']='Hospital de la Santa Creu i Sant Pau'
+        self.patients['1011516']['Admin']['Service']='Cardiology'
+        self.patients['1011516']['Admin']['Study date']=datetime(2023,11,08).date()
+        self.patients['1011516']['Quality']='Good'
+        self.patients['1011516']['Limitations']=[False,False,False,False,False,False,False,False]
+        self.patients['1011516']['first_filter']=True
+        self.patients['1011516']['second_filter']=True
+        self.patients['1011516']['AI suitability']=True
+        self.patients['1011516']['Dominance']='Right dominance'
+        self.patients['1011516']['CACs']=0
+        self.patients['1011516']['Stenosis']={1:['0','LCA'],
+                                        2:['0','p-LAD'],
+                                        3:['0','m-LAD'],
+                                        4:['0','d-LAD'],
+                                        5:['0','D1'],
+                                        6:['0','D2'],
+                                        7:['0','p-Cx'],
+                                        8:['0','d-Cx'],
+                                        9:['0','OM1'],
+                                        10:['0','OM2'],
+                                        11:['0','RI'],
+                                        12:['0','p-RCA'],
+                                        13:['0','m-RCA'],
+                                        14:['0','d-RCA'],
+                                        15:['0','RPL'],
+                                        16:['0','RPD']
+                                        }
+        ImageInfo_Generator().CADRADS_calculator_individual(self.patients,'1011516')
+
+        self.patients['587999']={}
+        self.patients['587999']['EHR']={}
+        self.patients['587999']['EHR']['Consult motive']='Chest pain/atypical symptoms in patient without known CAD'
+        self.patients['587999']['EHR']['Chest pain']='Atypical'
+        self.patients['587999']['EHR']['Prevalence']='Low'
+        self.patients['587999']['EHR']['Sex']='Male'
+        self.patients['587999']['EHR']['Age']=26
+        self.patients['587999']['EHR']['Name']='Manel Garcia Font'
+        self.patients['587999']['EHR']['Smoking']='No'
+        self.patients['587999']['EHR']['Diabetes']='No'
+        self.patients['587999']['EHR']['Hypertension']='No'
+        self.patients['587999']['EHR']['Dyslipidaemia']='No'
+        self.patients['587999']['EHR']['Previous procedures']=[False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False]
+        self.patients['587999']['EHR']['Urgent study']='No'
+        
+        self.patients['587999']['Admin']={}
+        self.patients['587999']['Admin']['Physician']='David Viladés'
+        self.patients['587999']['Admin']['Center']='Hospital de la Santa Creu i Sant Pau'
+        self.patients['587999']['Admin']['Service']='Cardiology'
+        self.patients['587999']['Admin']['Study date']=datetime(2023,11,08).date()
+        self.patients['587999']['Quality']='Good'
+        self.patients['587999']['Limitations']=[False,False,False,False,False,False,False,False]
+        self.patients['587999']['first_filter']=True
+        self.patients['587999']['second_filter']=True
+        self.patients['587999']['AI suitability']=True
+        self.patients['587999']['Dominance']='Right dominance'
+        self.patients['587999']['CACs']=0
+        self.patients['587999']['Stenosis']={1:['0','LCA'],
+                                        2:['0','p-LAD'],
+                                        3:['0','m-LAD'],
+                                        4:['0','d-LAD'],
+                                        5:['0','D1'],
+                                        6:['0','D2'],
+                                        7:['0','p-Cx'],
+                                        8:['0','d-Cx'],
+                                        9:['0','OM1'],
+                                        10:['0','OM2'],
+                                        11:['0','RI'],
+                                        12:['0','p-RCA'],
+                                        13:['0','m-RCA'],
+                                        14:['0','d-RCA'],
+                                        15:['0','RPL'],
+                                        16:['0','RPD']
+                                        }
+        ImageInfo_Generator().CADRADS_calculator_individual(self.patients,'587999')
