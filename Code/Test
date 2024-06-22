@@ -1,2 +1,0 @@
-# Test
-print("hello world")
