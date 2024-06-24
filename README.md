@@ -1,6 +1,6 @@
 # BT-23_24
 
-## Summary and Instructions for GitHub Repository
+## Summary and Instructions for Repository
 This repository contains the code developed as part of the Bachelor Thesis conducted during the course 2023-2024. The code is designed to streamline a pool of synthetic patients through a theoretically optimized CAD diagnosing process. It includes a GUI intended for clinicians, integrating some steps (the ones not running in the background) of this optimized process.
 
 ### How to Use the Code
